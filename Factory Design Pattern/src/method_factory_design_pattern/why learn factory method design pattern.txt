@@ -1,0 +1,34 @@
+✅ Top Interview Key Points – Factory Method Pattern (Burger Example)
+
+Interface-Based Factory Design
+→ BurgerFactory ek interface hai jo product creation (createBurger) ko abstract karta hai – har concrete factory apni family ke products banati hai.
+
+Encapsulation of Object Creation
+→ Object creation logic har factory class (SighBurger, KingBurger) ke andar chhupa hua hai – client ko sirf factory call karna hota hai.
+
+Open/Closed Principle Followed
+→ Naya burger add karna ho to nayi class banao, existing code ko touch nahi karna padta (OCP – Open for extension, closed for modification).
+
+Family of Related Products
+→ SighBurger normal buns ke burgers banata hai, KingBurger wheat buns ke – clearly separate product families define ki gayi hai.
+
+Scalability & Maintenance Easy
+→ Har burger type ka creation alag factory se ho raha hai, isse future me naye variants add karna super easy ho jata hai.
+
+✅ Top Interview Key Points – Factory Method Pattern (Burger Example)
+
+Interface-Based Factory Design
+→ BurgerFactory ek interface hai jo product creation (createBurger) ko abstract karta hai – har concrete factory apni family ke products banati hai.
+
+Encapsulation of Object Creation
+→ Object creation logic har factory class (SighBurger, KingBurger) ke andar chhupa hua hai – client ko sirf factory call karna hota hai.
+
+Open/Closed Principle Followed
+→ Naya burger add karna ho to nayi class banao, existing code ko touch nahi karna padta (OCP – Open for extension, closed for modification).
+
+Family of Related Products
+→ SighBurger normal buns ke burgers banata hai, KingBurger wheat buns ke – clearly separate product families define ki gayi hai.
+
+Scalability & Maintenance Easy
+→ Har burger type ka creation alag factory se ho raha hai, isse future me naye variants add karna super easy ho jata hai.
+

@@ -1,0 +1,20 @@
+1️⃣ Centralized Object Creation
+→ Factory class object creation handle karta hai, client ko new keyword use karne ki zarurat nahi hoti.
+
+2️⃣ Loose Coupling
+→ Client sirf interface ya abstract type se kaam karta hai, specific class ka naam nahi jaanta.
+
+3️⃣ Single Responsibility
+→ Object creation ka responsibility factory ke paas hota hai, logic cleanly separate hota hai.
+
+4️⃣ Easy to Maintain & Extend
+→ Naya product add karna ho to sirf factory modify karo, client code untouched rehta hai.
+
+5️⃣ Type-Based Decision Making
+→ Input string/type ke base pe alag-alag object return hote hain (e.g., "basic" → BasicBurger).
+
+
+
+⚠️ Bonus Line for Interview:
+
+"Simple Factory pattern object creation logic ko encapsulate karta hai, isse code more maintainable and loosely coupled hota hai."
