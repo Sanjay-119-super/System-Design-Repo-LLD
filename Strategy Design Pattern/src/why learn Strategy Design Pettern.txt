@@ -1,0 +1,5 @@
+💎 🔥 Why Learn This Pattern
+✅ Strategy Pattern	Runtime pe behavior switch kar sakte ho (talk/walk/fly)
+✅ OCP Followed	Naye features add karne ke liye purana code todna nahi padta
+✅ Real-World Inspired	Har robot ka alag feature hota hai – modular design real-world mein use hoti hai
+✅ Interview Gold	Design Patterns = FAANG interviews mein favourite questions

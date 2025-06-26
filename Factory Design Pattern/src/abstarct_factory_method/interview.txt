@@ -1,0 +1,19 @@
+✅ Abstract Factory Pattern – Key Points (Hinglish Mix)
+
+Family of Related Products Banata Hai
+→ Abstract Factory ek interface define karta hai jo multiple “product types” (jaise Burger aur GarlicBurger) ko ek saath create karne ki responsibility deta hai.
+
+Decouples Client from Concrete Classes
+→ Client code factory interface se interact karta hai, concrete implementations (jaise SinghBurger, KingBurger) se nahi. Isse code loosely coupled aur maintainable hota hai.
+
+Consistent Product Families Ensure Hoti Hai
+→ Jab ek factory use karte ho, dono related products ek hi “family” se aate hain (e.g., Singh family: BasicBurger + BasicGarlicBurger). Yeh UI/UX consistency aur business logic consistency ke liye useful.
+
+Open/Closed Principle Follow Hota Hai
+→ Agar naya product family add karna ho (jaise “VeganBurger” + “VeganGarlicBurger”), toh nayi factory class banao aur existing factories/clients ko modify nahi karna padta.
+
+Error Handling & Type-Safety Zaroori Hai
+→ createBurger(type) aur createGarlicBurger(type) methods mein invalid type handle karo (exception throw karke). Isse runtime pe surprises kam hote hain aur code robust banta hai.
+
+👉 Interview-Worthy Line:
+“Abstract Factory ek interface provide karta hai jo related product families (Burger + GarlicBurger) ko create karne ki responsibility deta hai. Isse client class fully decoupled rahata hai aur new product families add karna easy ho jata hai.”
