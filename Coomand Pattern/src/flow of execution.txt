@@ -1,0 +1,41 @@
+main()
+ ├── new Light()                // 🔧 Create Light object (Receiver)
+ ├── new Fan()                  // 🔧 Create Fan object (Receiver)
+ ├── new RemoteController()     // 🎮 Create Remote (Invoker)
+ │    ├── buttons[] = [null, null, null, null]
+ │    └── pressedButton[] = [false, false, false, false]
+ │
+ ├── remote.setCommand(0, new LightCommand(livingRoomLight))
+ │    └── buttons[0] = LightCommand
+ │        pressedButton[0] = false
+ │
+ ├── remote.setCommand(1, new FanCommand(cellingFan))
+ │    └── buttons[1] = FanCommand
+ │        pressedButton[1] = false
+ │
+ ├── remote.setPressedButton(0)        // 👆 User pressed button 0
+ │    ├── pressedButton[0] = false
+ │    ├── buttons[0].execute()         // 👉 LightCommand.execute()
+ │    │    └── light.on()              // 💡 Light is ON
+ │    └── pressedButton[0] = true
+ │
+ ├── remote.setPressedButton(0)        // 👆 Again press button 0
+ │    ├── pressedButton[0] = true
+ │    ├── buttons[0].undo()            // 👉 LightCommand.undo()
+ │    │    └── light.off()             // 💡 Light is OFF
+ │    └── pressedButton[0] = false
+ │
+ ├── remote.setPressedButton(1)        // 👆 Press button 1 (Fan ON)
+ │    ├── pressedButton[1] = false
+ │    ├── buttons[1].execute()         // 👉 FanCommand.execute()
+ │    │    └── fan.on()                // 🌀 Fan is ON
+ │    └── pressedButton[1] = true
+ │
+ ├── remote.setPressedButton(1)        // 👆 Again press button 1
+ │    ├── pressedButton[1] = true
+ │    ├── buttons[1].undo()            // 👉 FanCommand.undo()
+ │    │    └── fan.off()               // 🌀 Fan is OFF
+ │    └── pressedButton[1] = false
+ │
+ └── remote.setPressedButton(2)        // ❌ Invalid (no command assigned)
+      └── print "No command assigned at button index: 2"
