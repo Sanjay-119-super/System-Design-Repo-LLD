@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Adapter Design Pattern/Adapter Design Pattern.iml" filepath="$PROJECT_DIR$/Adapter Design Pattern/Adapter Design Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Coomand Pattern/Coomand Pattern.iml" filepath="$PROJECT_DIR$/Coomand Pattern/Coomand Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Decorator Pattern/Decorator Pattern.iml" filepath="$PROJECT_DIR$/Decorator Pattern/Decorator Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Facade Design Pattern/Facade Design Pattern.iml" filepath="$PROJECT_DIR$/Facade Design Pattern/Facade Design Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Factory Design Pattern/Factory Design Pattern.iml" filepath="$PROJECT_DIR$/Factory Design Pattern/Factory Design Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observal Design Pattern/Observal Design Pattern.iml" filepath="$PROJECT_DIR$/Observal Design Pattern/Observal Design Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/SOLID DESIGN PRINCIPLE/SOLID DESIGN PRINCIPLE.iml" filepath="$PROJECT_DIR$/SOLID DESIGN PRINCIPLE/SOLID DESIGN PRINCIPLE.iml" />
       <module fileurl="file://$PROJECT_DIR$/SingleTon Design Pattern/SingleTon Design Pattern.iml" filepath="$PROJECT_DIR$/SingleTon Design Pattern/SingleTon Design Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strategy Design Pattern/Strategy Design Pattern.iml" filepath="$PROJECT_DIR$/Strategy Design Pattern/Strategy Design Pattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/System Design Codes.iml" filepath="$PROJECT_DIR$/System Design Codes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Zomato Project LLD/Zomato Project LLD.iml" filepath="$PROJECT_DIR$/Zomato Project LLD/Zomato Project LLD.iml" />
     </modules>
   </component>
